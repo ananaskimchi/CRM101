@@ -1,11 +1,5 @@
 <template>
     <div class="container">
-        <div class="searching">
-          <form name="input" method="post" action="">
-            <input type="text" name="search" maxlength="10" placeholder="검색어를 입력해주세요">
-            <input type="submit" value="전송">
-          </form>
-      </div>
       <div class="slds-grid slds-gutters slds-wrap justify-center">
         <template for:each={result} for:item="item">
           <div class="card" key={item.id}>
